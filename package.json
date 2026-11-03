@@ -1,0 +1,29 @@
+{
+  "name": "tashi_phuntsho_task_api_05250198",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000a\u0000s\u0000k\u0000-\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/05250198jnec-glitch/task-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/05250198jnec-glitch/task-api/issues"
+  },
+  "homepage": "https://github.com/05250198jnec-glitch/task-api#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
