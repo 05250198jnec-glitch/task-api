@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Task Manager</h1>
+
+        <form id="task-form" class="card">
+            <input type="hidden" id="task-id">
+            <input type="text" id="title" placeholder="Task title" required>
+            <textarea id="description" placeholder="Description (optional)" rows="2"></textarea>
+            <select id="status">
+                <option value="pending">Pending</option>
+                <option value="in_progress">In progress</option>
+                <option value="completed">Completed</option>
+            </select>
+            <div class="form-actions">
+                <button type="submit" id="submit-btn">Add Task</button>
+                <button type="button" id="cancel-btn" class="secondary" hidden>Cancel</button>
+            </div>
+        </form>
+
+        <!-- Error Banner Container -->
+        <div id="error-banner" class="error-banner" hidden></div>
+
+        <div id="task-list" class="task-list"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
